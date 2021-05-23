@@ -15,7 +15,7 @@ fi
 ###################################################
 #### ---- Change this only to use your own ----
 ###################################################
-ORGANIZATION=openkbs
+ORGANIZATION=bobsqua
 baseDataFolder="$HOME/data-docker"
 
 ###################################################

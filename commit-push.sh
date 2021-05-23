@@ -10,7 +10,7 @@
 echo "Usage: "
 echo "  ${0} <comment> [<repo-name/repo-tag>] [<imageVersion>]"
 echo "e.g."
-echo "  ${0} \"initial updates\" \"openkbs/docker-project-tempalte\" \"1.0.0\" "
+echo "  ${0} \"initial updates\" \"bobsqua/docker-project-tempalte\" \"1.0.0\" "
 echo ""
 echo "-------------------------------------"
 echo "-- Make sure you do login first:   --"
@@ -19,7 +19,7 @@ echo "       docker login"
 echo "-------------------------------------"
 echo
 
-ORGANIZATION=${ORGANIZATION:-openkbs}
+ORGANIZATION=${ORGANIZATION:-bobsqua}
 
 comment=${1:-Update with the latest changes: `date`}
 

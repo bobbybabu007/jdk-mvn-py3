@@ -17,7 +17,7 @@
 
 FROM debian:stretch-slim
 
-MAINTAINER openkbs.org@gmail.com
+MAINTAINER BobSquad
 
 
 # A few reasons for installing distribution-provided OpenJDK:

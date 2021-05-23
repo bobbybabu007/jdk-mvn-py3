@@ -1,7 +1,7 @@
 #FROM ${BASE_IMAGE:-ubuntu:20.04}
 FROM ${BASE_IMAGE:-ubuntu:18.04}
 
-MAINTAINER DrSnowbird "DrSnowbird@openkbs.org"
+LABEL MAINTAINER BobSquad
 
 ENV DEBIAN_FRONTEND noninteractive
 

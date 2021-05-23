@@ -3,7 +3,7 @@
 # use the latest LTS Ubuntu
 FROM ubuntu:xenial
 
-MAINTAINER openkbs.org@gmail.com
+MAINTAINER BobSquad
 
 ENV DEBIAN_FRONTEND noninteractive
 

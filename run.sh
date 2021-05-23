@@ -140,7 +140,7 @@ ENV_VARIABLE_PATTERN=""
 ###################################################
 #### ---- Change this only to use your own ----
 ###################################################
-ORGANIZATION=openkbs
+ORGANIZATION=bobsquad
 baseDataFolder="$HOME/data-docker"
 
 ###################################################
@@ -432,15 +432,15 @@ function generateEnvVars() {
 ###################################################
 #### ---- Setup Docker Build Proxy ----
 ###################################################
-# export NO_PROXY="localhost,127.0.0.1,.openkbs.org"
-# export HTTP_PROXY="http://gatekeeper-w.openkbs.org:80"
+# export NO_PROXY="localhost,127.0.0.1,.bobsquad.org"
+# export HTTP_PROXY="http://gatekeeper-w.bobsquad.org:80"
 # when using "wget", add "--no-check-certificate" to avoid https certificate checking failures
 # Note: You can also setup Docker CLI configuration file (~/.docker/config.json), e.g.
 # {
 #   "proxies": {
 #     "default": {
-#       "httpProxy": "http://gatekeeper-w.openkbs.org:80"
-#       "httpsProxy": "http://gatekeeper-w.openkbs.org:80"
+#       "httpProxy": "http://gatekeeper-w.bobsquad.org:80"
+#       "httpsProxy": "http://gatekeeper-w.bobsquad.org:80"
 #      }
 #    }
 #  }
